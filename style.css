@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Merriweather:wght@300&family=Outfit:wght@300&display=swap");
+
+* {
+	font-family: "Open Sans";
+	background-color: hsl(0, 0%, 92%);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 800px;
+	height: 1800px;
+	margin: 0 auto;
+}
+
+.intro {
+	width: 800px;
+	height: 600px;
+	border: solid 1px gray;
+	border-radius: 5px;
+	margin: 80px 0px 15px 0px;
+	padding: 50px;
+	background-color: white;
+}
+
+.intro img {
+	margin: 0 auto;
+	border-radius: 50%;
+	border: solid 5px hsl(0, 0%, 84%);
+}
+
+.intro h1 {
+	color: hsl(0, 66%, 60%);
+}
+
+a .btn {
+	width: 50px;
+	height: 50px;
+	background-color: hsl(0, 66%, 60%);
+}
