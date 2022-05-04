@@ -1,41 +1,144 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Merriweather:wght@300&family=Outfit:wght@300&display=swap");
 
+/* global style */
+
 * {
 	font-family: "Open Sans";
-	background-color: hsl(0, 0%, 92%);
+	color: hsl(209, 2%, 58%);
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: hsl(0, 0%, 92%);
+}
+
 .container {
-	width: 800px;
-	height: 1800px;
+	width: 500px;
+	height: 1310px;
 	margin: 0 auto;
 }
 
+/* first section  */
+
 .intro {
-	width: 800px;
-	height: 600px;
-	border: solid 1px gray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 500px;
+	height: 380px;
 	border-radius: 5px;
-	margin: 80px 0px 15px 0px;
-	padding: 50px;
+	margin: 30px 0px 20px 0px;
+	padding: 22px 22px 12px 22px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.267);
 	background-color: white;
 }
 
 .intro img {
-	margin: 0 auto;
+	width: 115px;
+	height: 115px;
 	border-radius: 50%;
-	border: solid 5px hsl(0, 0%, 84%);
+	border: solid 3px hsl(0, 0%, 84%);
 }
 
 .intro h1 {
+	font-weight: 900;
 	color: hsl(0, 66%, 60%);
 }
 
-a .btn {
-	width: 50px;
-	height: 50px;
+.intro h2 {
+	font-size: 17px;
+}
+
+.intro p {
+	font-size: 14px;
+	text-align: justify;
+	line-height: 23px;
+}
+
+.btn {
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+	color: white;
+	width: 130px;
+	height: 40px;
+	border-radius: 5px;
 	background-color: hsl(0, 66%, 60%);
+}
+
+/* second section  */
+
+.links {
+	width: 500px;
+	height: 160px;
+	margin: 30px 0px 15px 0px;
+	padding: 60px 0 60px 0;
+	border-radius: 5px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.267);
+	background-color: white;
+}
+
+.links i {
+	width: 20%;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+li {
+	text-align: center;
+}
+
+/* third section */
+
+.movies {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-evenly;
+	text-align: justify;
+	line-height: 23px;
+	width: 500px;
+	height: 665px;
+	padding: 34px 34px 50px 34px;
+	margin: 30px 0px 15px 0px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.267);
+	border-radius: 5px;
+	background-color: white;
+}
+
+.movies img {
+	width: 80px;
+	height: 120px;
+}
+
+.movies p {
+	font-size: 15px;
+}
+
+.first-movie {
+	display: flex;
+	flex-direction: row;
+}
+
+.second-movie {
+	display: flex;
+	flex-direction: row;
+}
+
+.third-movie {
+	display: flex;
+	flex-direction: row;
 }
